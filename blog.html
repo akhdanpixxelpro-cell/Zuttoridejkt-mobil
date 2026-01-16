@@ -11,24 +11,31 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="img/mobillog.jpeg" alt="ZuttoRide" height="40">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
-                    <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang</a></li>
-                    <li class="nav-item"><a class="nav-link" href="layanan.html">Layanan</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link btn btn-danger text-white px-3 ms-lg-3" href="#">Hubungi Kami</a></li>
-                </ul>
-            </div>
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+            <img src="img/mobillog.jpeg" alt="ZuttoRide Jakarta" height="40">
+            <span class="fw-bold text-danger">ZuttoRide Jakarta</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+                <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+                <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang</a></li>
+                <li class="nav-item"><a class="nav-link" href="layanan.html">Layanan</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-danger text-white px-3 ms-lg-3" href="https://api.whatsapp.com/send/?phone=628123456789&text=Halo+saya+ingin+bertanya&type=phone_number&app_absent=0">
+                        Hubungi Kami
+                    </a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <!-- PAGE HEADER ZUTTORIDE JKT -->
 <section class="zutto-page-header">
@@ -60,85 +67,103 @@ placeholder="Cari tips atau berita...">
     </section>
 
     <section class="py-5">
-        <div class="container">
-            <div class="row g-4">
-                
-                <div class="col-md-4 blog-item">
-                    <div class="card h-100 border-0 shadow-sm blog-card">
-                        <img src="https://images.unsplash.com/photo-1558981453-22a9a57d32cb?auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Tips Motor">
-                        <div class="card-body">
-                            <span class="badge bg-danger mb-2">Tips</span>
-                            <h5 class="card-title fw-bold">Cara Merawat Rantai Motor Agar Awet</h5>
-                            <p class="card-text text-muted small">Rantai adalah komponen vital. Simak cara melumasi rantai dengan benar...</p>
-                            <a href="#" class="btn btn-link p-0 text-danger fw-bold text-decoration-none">Baca Selengkapnya</a>
-                        </div>
+    <div class="container">
+        <div class="row g-4">
+
+            <!-- 1 -->
+            <div class="col-md-4 blog-item">
+                <div class="card h-100 border-0 shadow-sm blog-card">
+                    <img src="img/Cara Merawat Rantai Motor Agar Awet.jpg" class="card-img-top" alt="Tips Motor">
+                    <div class="card-body">
+                        <span class="badge bg-danger mb-2">Tips</span>
+                        <h5 class="card-title fw-bold">Cara Merawat Rantai Motor Agar Awet</h5>
+                        <p class="card-text text-muted small">Rantai adalah komponen vital. Simak cara melumasi rantai dengan benar...</p>
+                        <a href="a1.html" class="btn btn-link p-0 text-danger fw-bold text-decoration-none">
+                            Baca Selengkapnya
+                        </a>
                     </div>
                 </div>
-
-                <div class="col-md-4 blog-item">
-                    <div class="card h-100 border-0 shadow-sm blog-card">
-                        <img src="https://images.unsplash.com/photo-1444491741275-3747c53c99b4?auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Keamanan">
-                        <div class="card-body">
-                            <span class="badge bg-danger mb-2">Safety</span>
-                            <h5 class="card-title fw-bold">Perlengkapan Wajib Saat Riding Jauh</h5>
-                            <p class="card-text text-muted small">Selain helm, inilah protektor yang wajib Anda gunakan demi keamanan...</p>
-                            <a href="#" class="btn btn-link p-0 text-danger fw-bold text-decoration-none">Baca Selengkapnya</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 blog-item">
-                    <div class="card h-100 border-0 shadow-sm blog-card">
-                        <img src="https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Ban Motor">
-                        <div class="card-body">
-                            <span class="badge bg-danger mb-2">Tips</span>
-                            <h5 class="card-title fw-bold">Tanda Ban Motor Harus Segera Diganti</h5>
-                            <p class="card-text text-muted small">Jangan tunggu licin! Kenali tanda ban motor Anda mulai kehilangan grip...</p>
-                            <a href="#" class="btn btn-link p-0 text-danger fw-bold text-decoration-none">Baca Selengkapnya</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 blog-item">
-                    <div class="card h-100 border-0 shadow-sm blog-card">
-                        <img src="https://images.unsplash.com/photo-1572533509351-4603099933ee?auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Touring">
-                        <div class="card-body">
-                            <span class="badge bg-danger mb-2">Community</span>
-                            <h5 class="card-title fw-bold">Rute Touring Menarik di Sekitar Jakarta</h5>
-                            <p class="card-text text-muted small">Butuh refreshing? Cek rute touring akhir pekan yang ramah pemula...</p>
-                            <a href="#" class="btn btn-link p-0 text-danger fw-bold text-decoration-none">Baca Selengkapnya</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 blog-item">
-                    <div class="card h-100 border-0 shadow-sm blog-card">
-                        <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Teknik">
-                        <div class="card-body">
-                            <span class="badge bg-danger mb-2">Edukasi</span>
-                            <h5 class="card-title fw-bold">Pentingnya Ganti Oli Secara Teratur</h5>
-                            <p class="card-text text-muted small">Oli adalah darah bagi mesin. Jangan sampai mesin overheat karena oli kotor...</p>
-                            <a href="#" class="btn btn-link p-0 text-danger fw-bold text-decoration-none">Baca Selengkapnya</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 blog-item">
-                    <div class="card h-100 border-0 shadow-sm blog-card">
-                        <img src="https://images.unsplash.com/photo-1525160354320-d8e92641c563?auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="ZuttoRide">
-                        <div class="card-body">
-                            <span class="badge bg-danger mb-2">News</span>
-                            <h5 class="card-title fw-bold">Promo Membership Khusus Awal Tahun</h5>
-                            <p class="card-text text-muted small">Dapatkan diskon hingga 20% untuk pendaftaran member baru bulan ini!</p>
-                            <a href="#" class="btn btn-link p-0 text-danger fw-bold text-decoration-none">Baca Selengkapnya</a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
-            
+
+            <!-- 2 -->
+            <div class="col-md-4 blog-item">
+                <div class="card h-100 border-0 shadow-sm blog-card">
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1000&q=80" class="card-img-top" alt="Keamanan">
+                    <div class="card-body">
+                        <span class="badge bg-danger mb-2">Safety</span>
+                        <h5 class="card-title fw-bold">Perlengkapan Wajib Saat Riding Jauh</h5>
+                        <p class="card-text text-muted small">Selain helm, inilah protektor yang wajib Anda gunakan demi keamanan...</p>
+                        <a href="a2.html" class="btn btn-link p-0 text-danger fw-bold text-decoration-none">
+                            Baca Selengkapnya
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="col-md-4 blog-item">
+                <div class="card h-100 border-0 shadow-sm blog-card">
+                    <img src="https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Ban Motor">
+                    <div class="card-body">
+                        <span class="badge bg-danger mb-2">Tips</span>
+                        <h5 class="card-title fw-bold">Tanda Ban Motor Harus Segera Diganti</h5>
+                        <p class="card-text text-muted small">Jangan tunggu licin! Kenali tanda ban motor Anda mulai kehilangan grip...</p>
+                        <a href="a3.html" class="btn btn-link p-0 text-danger fw-bold text-decoration-none">
+                            Baca Selengkapnya
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="col-md-4 blog-item">
+                <div class="card h-100 border-0 shadow-sm blog-card">
+                    <img src="img/Rute Touring Menarik di Sekitar Jakarta.jpg" class="card-img-top" alt="Touring">
+                    <div class="card-body">
+                        <span class="badge bg-danger mb-2">Community</span>
+                        <h5 class="card-title fw-bold">Rute Touring Menarik di Sekitar Jakarta</h5>
+                        <p class="card-text text-muted small">Butuh refreshing? Cek rute touring akhir pekan yang ramah pemula...</p>
+                        <a href="a4.html" class="btn btn-link p-0 text-danger fw-bold text-decoration-none">
+                            Baca Selengkapnya
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="col-md-4 blog-item">
+                <div class="card h-100 border-0 shadow-sm blog-card">
+                    <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=500&q=80" class="card-img-top" alt="Teknik">
+                    <div class="card-body">
+                        <span class="badge bg-danger mb-2">Edukasi</span>
+                        <h5 class="card-title fw-bold">Pentingnya Ganti Oli Secara Teratur</h5>
+                        <p class="card-text text-muted small">Oli adalah darah bagi mesin. Jangan sampai mesin overheat karena oli kotor...</p>
+                        <a href="a5.html" class="btn btn-link p-0 text-danger fw-bold text-decoration-none">
+                            Baca Selengkapnya
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6 -->
+            <div class="col-md-4 blog-item">
+                <div class="card h-100 border-0 shadow-sm blog-card">
+                    <img src="img/ZuttoRideJKT.jpg" class="card-img-top" alt="ZuttoRide">
+                    <div class="card-body">
+                        <span class="badge bg-danger mb-2">News</span>
+                        <h5 class="card-title fw-bold">Promo Membership Khusus Awal Tahun</h5>
+                        <p class="card-text text-muted small">Dapatkan diskon hingga 20% untuk pendaftaran member baru bulan ini!</p>
+                        <a href="a6.html" class="btn btn-link p-0 text-danger fw-bold text-decoration-none">
+                            Baca Selengkapnya
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
+
 
     <script>
 const search = document.getElementById("searchBlog");
@@ -154,27 +179,7 @@ search.addEventListener("keyup", function () {
   });
 });
 
-// 📖 BACA SELENGKAPNYA (expand / collapse)
-blogs.forEach(blog => {
-  const btn = blog.querySelector("a");
-  const p = blog.querySelector("p");
-  const shortText = p.innerText;
 
-  const fullText = shortText + 
-    " Artikel lengkap ini membahas langkah-langkah detail, tips profesional, dan kesalahan umum yang sering dilakukan. Dengan mengikuti panduan ini, performa dan keamanan motor Anda akan jauh lebih terjaga.";
-
-  btn.addEventListener("click", function(e){
-    e.preventDefault();
-
-    if(btn.innerText === "Baca Selengkapnya"){
-      p.innerText = fullText;
-      btn.innerText = "Tutup";
-    } else {
-      p.innerText = shortText;
-      btn.innerText = "Baca Selengkapnya";
-    }
-  });
-});
 </script>
 
 
@@ -258,6 +263,10 @@ blogs.forEach(blog => {
     font-size: 1.1rem;
     opacity: 0.9;
 }
+.btn-danger {
+    background-color: #e60012;
+    border: none;
+}
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -273,7 +282,10 @@ blogs.forEach(blog => {
         font-size: 0.95rem;
     }
 }
-
+.btn-danger {
+    background-color: #e60012;
+    border: none;
+}
     </style>
 
     <footer class="bg-dark text-white pt-5 pb-3">
@@ -385,6 +397,118 @@ footer h5::after {
     transform: translateY(-3px);
 }
 </style>
+
+<div class="fab-container">
+
+    <!-- BACK TO TOP -->
+    <div class="fab-btn fab-top" id="backToTop" onclick="backToTop()">
+        <!-- SVG PANAH -->
+        <svg viewBox="0 0 24 24" fill="none"
+             stroke="white" stroke-width="2.5"
+             stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 19V5" />
+            <path d="M5 12l7-7 7 7" />
+        </svg>
+    </div>
+
+<!-- WHATSAPP FAB -->
+<div class="fab-btn fab-wa">
+  <a
+    href="https://wa.me/628123456789?text=Halo%20saya%20ingin%20bertanya"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat WhatsApp Jaya Jakarta"
+    title="Chat WhatsApp"
+    class="fab-link"
+  >
+    <svg
+      viewBox="0 0 512 512"
+      width="28"
+      height="28"
+      role="img"
+      aria-labelledby="waTitle waDesc"
+      focusable="false"
+    >
+      <title id="waTitle">WhatsApp</title>
+      <desc id="waDesc">Tombol untuk membuka chat WhatsApp Jaya Jakarta</desc>
+
+      <!-- BALON CHAT -->
+      <path fill="#FFFFFF" d="M256 32C132.3 32 32 128.9 32 248c0 50.6 18.1 97.3 48.3 134.2L48 480l101.6-30.1c33.4 18.3 71.8 28.7 112.4 28.7 123.7 0 224-96.9 224-216.6S379.7 32 256 32z"/>
+
+      <!-- LOGO WA -->
+      <path fill="#25D366" d="M256 64c-105.9 0-192 83.6-192 184 0 46.3 18.2 89.4 48.4 121.6L96 416l50.5-14.7C177.6 420.8 215.8 432 256 432c105.9 0 192-83.6 192-184S361.9 64 256 64z"/>
+
+      <!-- TELEPON -->
+      <path fill="#FFFFFF" d="M341.6 299.2c-5.2-2.6-30.6-15-35.3-16.7-4.7-1.7-8.1-2.6-11.5 2.6-3.4 5.2-13.3 16.7-16.3 20.1-3 3.4-6 3.9-11.2 1.3-30.6-15-50.6-26.8-70.7-60.8-5.2-8.9 5.2-8.3 15-28.2 1.7-3.4.9-6.5-.4-9.1-1.3-2.6-11.5-27.4-15.8-37.6-4.3-10.4-8.7-9.1-11.5-9.1-3 0-6.5-.4-10-.4s-9.1 1.3-13.9 6.5c-4.8 5.2-18.3 17.9-18.3 43.7s18.7 50.8 21.3 54.2c2.6 3.4 36.9 56.3 89.5 78.9 12.5 5.4 22.3 8.6 29.9 11 12.6 4 24.1 3.4 33.2 2.1 10.1-1.5 30.6-12.5 34.9-24.6 4.3-12.1 4.3-22.5 3-24.6-1.3-2.1-4.7-3.4-9.9-6z"/>
+    </svg>
+  </a>
+</div>
+
+<style>
+    .fab-container {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.fab-btn {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    box-shadow: 0 6px 18px rgba(0,0,0,.35);
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.fab-btn:hover {
+    transform: scale(1.1);
+}
+
+.fab-wa {
+    background: #25D366;
+}
+
+/* ukuran ikon svg */
+.fab-btn svg {
+    width: 24px;
+    height: 24px;
+}
+
+.fab-top {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.fab-top.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+</style>
+
+<script>
+const topBtn = document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+        topBtn.classList.add("show");
+    } else {
+        topBtn.classList.remove("show");
+    }
+});
+
+function backToTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+}
+</script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
