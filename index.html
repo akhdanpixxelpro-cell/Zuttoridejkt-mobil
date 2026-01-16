@@ -60,9 +60,18 @@
    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
-            <img src="img/mobillog.jpeg" alt="ZuttoRide Jakarta" height="40">
-            <span class="fw-bold text-danger">ZuttoRide Jakarta</span>
-        </a>
+    <img 
+        src="img/mobillog.jpeg"
+        alt="ZuttoRide Jakarta"
+        width="40"
+        height="40"
+        class="brand-logo"
+        loading="eager"
+        decoding="async"
+    >
+    <span class="fw-bold text-danger">ZuttoRide Jakarta</span>
+</a>
+
 
        <button class="navbar-toggler"
         type="button"
@@ -237,6 +246,12 @@
     border: none;
     font-weight: bold;
 }
+.brand-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
 
 /* Responsivitas Tambahan */
 @media (max-width: 768px) {
