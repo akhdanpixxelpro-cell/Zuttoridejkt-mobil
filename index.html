@@ -64,9 +64,16 @@
             <span class="fw-bold text-danger">ZuttoRide Jakarta</span>
         </a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+       <button class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto align-items-lg-center">
@@ -236,9 +243,9 @@
 }
     </style>
 
-   <footer class="bg-dark text-white pt-5 pb-3">
+   <footer class="bg-dark text-white pt-5 pb-3" role="contentinfo">
     <div class="container">
-        <div class="row g-4">
+        <div class="row">
             
             <div class="col-lg-3 col-md-6">
                 <img src="img/mobillog.jpeg" alt="ZuttoRide JKT" class="mb-3 bg-white p-2 rounded" height="50">
@@ -246,10 +253,28 @@
                     ZuttoRide Indonesia adalah penyedia layanan bantuan darurat motor nomor 1 di Indonesia. Memberikan ketenangan berkendara 24 jam sehari.
                 </p>
                 <div class="social-links mt-3">
-                    <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
-                </div>
+    <a href="https://facebook.com/zuttoride"
+       class="text-white me-3"
+       aria-label="ZuttoRide di Facebook"
+       target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+    </a>
+
+    <a href="https://instagram.com/zuttoride"
+       class="text-white me-3"
+       aria-label="ZuttoRide di Instagram"
+       target="_blank" rel="noopener">
+        <i class="fab fa-instagram" aria-hidden="true"></i>
+    </a>
+
+    <a href="https://youtube.com/@zuttoride"
+       class="text-white"
+       aria-label="ZuttoRide di YouTube"
+       target="_blank" rel="noopener">
+        <i class="fab fa-youtube" aria-hidden="true"></i>
+    </a>
+</div>
+
             </div>
 
             <div class="col-lg-3 col-md-6">
@@ -263,37 +288,74 @@
             </div>
 
             <div class="col-lg-3 col-md-6">
-                <h5 class="fw-bold mb-4">Informasi</h5>
-                <ul class="list-unstyled footer-links">
-                    <li><a href="#" class="text-secondary text-decoration-none">Tentang Kami</a></li>
-                    <li><a href="#" class="text-secondary text-decoration-none">Syarat & Ketentuan</a></li>
-                    <li><a href="#" class="text-secondary text-decoration-none">Kebijakan Privasi</a></li>
-                    <li><a href="#" class="text-secondary text-decoration-none">Blog & Berita</a></li>
-                </ul>
-            </div>
+    <nav aria-label="Informasi perusahaan">
+        <h2 class="h5 fw-bold mb-4">Informasi</h2>
+        <ul class="list-unstyled footer-links">
+            <li>
+                <a href="tentang.html" class="text-secondary text-decoration-none">
+                    Tentang Kami
+                </a>
+            </li>
+            <li>
+                <a href="syarat-ketentuan.html" class="text-secondary text-decoration-none">
+                    Syarat &amp; Ketentuan
+                </a>
+            </li>
+            <li>
+                <a href="kebijakan-privasi.html" class="text-secondary text-decoration-none">
+                    Kebijakan Privasi
+                </a>
+            </li>
+            <li>
+                <a href="blog.html" class="text-secondary text-decoration-none">
+                    Blog &amp; Berita
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
 
-            <div class="col-lg-3 col-md-6">
-                <h5 class="fw-bold mb-4">Kontak Jakarta</h5>
-                <p class="text-secondary small mb-2">
-                    <strong>Alamat:</strong> Jl. HR. Rasuna Said, Jakarta Selatan, DKI Jakarta.
-                </p>
-                <p class="text-secondary small mb-2">
-                    <strong>Email:</strong> info@zuttoride.id
-                </p>
-                <p class="text-secondary small mb-0">
-                    <strong>Hotline:</strong> 1500-XXX (24 Jam)
-                </p>
-            </div>
+<div class="col-lg-3 col-md-6">
+    <section aria-labelledby="footer-kontak-jakarta">
+        <h2 id="footer-kontak-jakarta" class="h5 fw-bold mb-4">
+            Kontak Jakarta
+        </h2>
 
-        </div>
+        <address class="text-secondary small">
+            <p class="mb-2">
+                <strong>Alamat:</strong>
+                <span>Jl. HR. Rasuna Said, Jakarta Selatan, DKI Jakarta.</span>
+            </p>
 
-        <hr class="mt-5 mb-4 border-secondary">
+            <p class="mb-2">
+                <strong>Email:</strong>
+                <a href="mailto:info@zuttoride.id"
+                   class="text-secondary text-decoration-none">
+                    info@zuttoride.id
+                </a>
+            </p>
 
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <p class="small text-secondary mb-0">&copy; 2026 ZuttoRide JKT. All rights reserved.</p>
-            </div>
-        </div>
+            <p class="mb-0">
+                <strong>Hotline:</strong>
+                <a href="tel:1500XXX"
+                   class="text-secondary text-decoration-none">
+                    1500-XXX (24 Jam)
+                </a>
+            </p>
+        </address>
+    </section>
+</div>
+
+<hr class="mt-5 mb-4 border-secondary" aria-hidden="true">
+
+<div class="row">
+    <div class="col-md-12 text-center">
+        <p class="small text-secondary mb-0">
+            © 2026 ZuttoRide JKT. All rights reserved.
+        </p>
+    </div>
+</div>
+
     </div>
 </footer>
 
