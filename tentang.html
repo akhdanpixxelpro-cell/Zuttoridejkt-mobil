@@ -96,10 +96,132 @@
         </div>
     </section>
 
+    <section class="about">
+    <h2>Sejarah ZuttoRide</h2>
+    <p>
+        ZuttoRide berawal dari kebutuhan akan layanan bantuan darurat kendaraan roda dua yang andal.
+        Sejak akhir tahun 1970-an, industri otomotif mulai berkembang pesat dan menuntut solusi
+        perlindungan serta pendampingan bagi pengendara.
+    </p>
+</section>
+
+<section class="timeline">
+
+    <div class="item">
+        <span class="year">1976</span>
+        <p>
+            Era awal berkembangnya layanan bantuan kendaraan roda dua di Jepang.
+            Konsep perlindungan pengendara mulai menjadi perhatian utama.
+        </p>
+    </div>
+
+    <div class="item">
+        <span class="year">1997</span>
+        <p>
+            ZuttoRide Corporation resmi didirikan di Jepang sebagai pionir layanan
+            roadside assistance khusus sepeda motor.
+        </p>
+    </div>
+
+    <div class="item">
+        <span class="year">2005 – 2010</span>
+        <p>
+            ZuttoRide memperluas kerja sama dengan berbagai merek sepeda motor besar
+            dan memperkuat sistem membership di Jepang.
+        </p>
+    </div>
+
+    <div class="item">
+        <span class="year">2012</span>
+        <p>
+            PT ZuttoRide Indonesia mulai beroperasi di Jakarta,
+            menghadirkan layanan bantuan darurat dan towing motor 24 jam.
+        </p>
+    </div>
+
+    <div class="item">
+        <span class="year">2020</span>
+        <p>
+            ZuttoRide Jakarta memperkuat jaringan armada towing serta layanan
+            call center untuk menjangkau wilayah Jabodetabek.
+        </p>
+    </div>
+
+    <div class="item">
+        <span class="year">2025</span>
+        <p>
+            Inovasi layanan berbasis membership semakin berkembang,
+            memberikan perlindungan menyeluruh bagi pengendara motor.
+        </p>
+    </div>
+
+    <div class="item highlight">
+        <span class="year">2026</span>
+        <p>
+            ZuttoRide Jakarta terus berkomitmen menjadi mitra terpercaya pengendara motor
+            dengan layanan digital, komunitas, dan keselamatan berkendara.
+        </p>
+    </div>
+
+</section>
+
+<section class="team">
+    <h2>Tim ZuttoRide Jakarta</h2>
+    <p class="team-desc">
+        Tim profesional ZuttoRide Jakarta siap memberikan layanan terbaik
+        dengan pengalaman, kecepatan, dan kepedulian terhadap keselamatan pengendara.
+    </p>
+
+    <div class="team-grid">
+
+        <div class="team-card">
+            <img src="img/pp1.jpg" alt="Direktur ZuttoRide Jakarta">
+            <h3>Andi Pratama</h3>
+            <span>Direktur Operasional</span>
+            <p>
+                Memimpin pengembangan layanan dan strategi operasional ZuttoRide Jakarta
+                untuk memastikan kepuasan pelanggan.
+            </p>
+        </div>
+
+        <div class="team-card">
+            <img src="img/pp2.jpg" alt="Manager Operasional">
+            <h3>Siti Rahmawati</h3>
+            <span>Manager Operasional</span>
+            <p>
+                Bertanggung jawab atas koordinasi armada towing dan layanan darurat
+                24 jam di wilayah Jakarta dan sekitarnya.
+            </p>
+        </div>
+
+        <div class="team-card">
+            <img src="img/pp3.jpg" alt="Supervisor Layanan">
+            <h3>Budi Santoso</h3>
+            <span>Supervisor Layanan</span>
+            <p>
+                Mengawasi kualitas layanan dan memastikan setiap pengendara
+                mendapatkan bantuan yang cepat dan aman.
+            </p>
+        </div>
+
+        <div class="team-card">
+            <img src="img/pp4.jpg" alt="Tim Lapangan">
+            <h3>Farel Bagas</h3>
+            <span>Road Assistance</span>
+            <p>
+                Garda terdepan ZuttoRide Jakarta yang siap membantu
+                pengendara motor di kondisi darurat kapan saja.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
     <style>
         /* Breadcrumb Style */
 .breadcrumb-item + .breadcrumb-item::before {
-    color: rgba(255,255,255,0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 /* Image styling */
@@ -154,6 +276,109 @@ body {
     background-color: #e60012;
     border: none;
 }
+/* About */
+.about {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.about h2 {
+    color: #b1121a;
+    margin-bottom: 15px;
+}
+
+/* Timeline */
+.timeline {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.item {
+    background: #fff;
+    padding: 20px;
+    border-left: 5px solid #b1121a;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.item .year {
+    font-weight: bold;
+    color: #b1121a;
+    font-size: 18px;
+}
+
+/* Highlight 2026 */
+.highlight {
+    background: #fff4f4;
+    border-left-color: #ff0000;
+}
+/* Team Section */
+.team {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.team h2 {
+    color: #b1121a;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.team-desc {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    color: #555;
+}
+
+/* Grid */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+/* Card */
+.team-card {
+    background: #fff;
+    padding: 25px 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-8px);
+}
+
+.team-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.team-card span {
+    display: block;
+    font-size: 14px;
+    color: #b1121a;
+    margin-bottom: 10px;
+}
+
+.team-card p {
+    font-size: 14px;
+    color: #555;
+}
+
     </style>
 
     <footer class="bg-dark text-white pt-5 pb-3">
@@ -175,8 +400,8 @@ body {
             <div class="col-lg-3 col-md-6">
                 <h5 class="fw-bold mb-4">Layanan Kami</h5>
                 <ul class="list-unstyled footer-links">
-                    <li><a href="#" class="text-secondary text-decoration-none">Road Service 24 Jam</a></li>
-                    <li><a href="#" class="text-secondary text-decoration-none">Layanan Towing</a></li>
+                    <li><a href="service.html" class="text-secondary text-decoration-none">Road Service 24 Jam</a></li>
+                    <li><a href="layanan.html" class="text-secondary text-decoration-none">Layanan Towing</a></li>
                     <li><a href="#" class="text-secondary text-decoration-none">Membership Motor</a></li>
                     <li><a href="#" class="text-secondary text-decoration-none">ZuttoRide Application</a></li>
                 </ul>
@@ -185,10 +410,10 @@ body {
             <div class="col-lg-3 col-md-6">
                 <h5 class="fw-bold mb-4">Informasi</h5>
                 <ul class="list-unstyled footer-links">
-                    <li><a href="#" class="text-secondary text-decoration-none">Tentang Kami</a></li>
-                    <li><a href="#" class="text-secondary text-decoration-none">Syarat & Ketentuan</a></li>
-                    <li><a href="#" class="text-secondary text-decoration-none">Kebijakan Privasi</a></li>
-                    <li><a href="#" class="text-secondary text-decoration-none">Blog & Berita</a></li>
+                    <li><a href="tentang.html" class="text-secondary text-decoration-none">Tentang Kami</a></li>
+                    <li><a href="syarat.html" class="text-secondary text-decoration-none">Syarat & Ketentuan</a></li>
+                    <li><a href="Kebijakan Privasi.html" class="text-secondary text-decoration-none">Kebijakan Privasi</a></li>
+                    <li><a href="blog.html" class="text-secondary text-decoration-none">Blog & Berita</a></li>
                 </ul>
             </div>
 
